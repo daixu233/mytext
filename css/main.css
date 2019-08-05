@@ -1,0 +1,158 @@
+.banner-box {
+    width: 100%;
+    height: 660px;
+    background: #71BD4F;
+}
+.banner-box .banner-img {
+    width: 1220px;
+    height: 580px;
+    display: block;
+    margin: 0 auto;
+}
+.top-bar {
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    background: rgba(0, 0, 0, .2);
+}
+.top-bar .bar-content {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top-bar .bar-content .icon-box {
+    height: 80px;
+    float: left;
+}
+
+.nav-box {
+    float: left;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.nav-box .nav-list {
+    float: left;
+    list-style-type: none;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+.nav-box .nav-list.active {
+    background: #2793f8;
+}
+
+.nav-box .nav-list:hover {
+    background: #2793f8;
+}
+
+.card-line {
+    width: 1200px;
+    margin: 5px auto;
+    overflow: hidden;
+    height: 360px;
+}
+
+.card-line .card-block {
+    width: 390px;
+    height: 358px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #aaa;
+    margin-left: 5px;
+}
+
+.card-line .card-block .card-img {
+    width: 388px;
+    display: block;
+}
+
+.card-line .card-block .center-txt {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 18px;
+}
+
+.card-line .card-block .center-txt span {
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.download-btn {
+    width: 200px;
+    height: 50px;
+    background: #2793f8;
+    border-radius: 50px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.footer {
+    width: 1200px;
+    height:102px;
+    margin: 0 auto;
+    padding: 50px 0 20px;
+}
+
+.footer-list-first{
+    width: 120px;
+    margin-left: 50px;
+    list-style-type: none;
+    display: block;
+    float: left;
+    color: #666;
+}
+
+.footer-box {
+    overflow: hidden;
+}
+
+.footer-list{
+    padding: 0 30px;
+    border-right:1px solid #aaa;
+    list-style-type: none;
+    display: block;
+    float: left;
+    color: #666;
+    text-align: center;
+}
+.footer-list:nth-last-child(1) {
+    border-right: none;
+}
+.footer-list a {
+    color: #666;
+    text-decoration: none;
+}
+/* .footer-list-last{
+    width: 90px;
+    margin-left: 20px;
+    list-style-type: none;
+    display: block;
+    float: left;
+    color: #666;
+} */
+
+.footer-txt{
+    width: 1200px;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+    color: #666;
+}
+
+.footer-last{
+    width: 1200px;
+    text-align: center;
+    font-size:14px;
+    color: #666;
+    float: left;
+}
